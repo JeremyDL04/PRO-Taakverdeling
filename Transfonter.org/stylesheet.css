@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'League Mono';
+    src: url('LeagueMono-Regular.eot');
+    src: url('LeagueMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('LeagueMono-Regular.woff2') format('woff2'),
+        url('LeagueMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

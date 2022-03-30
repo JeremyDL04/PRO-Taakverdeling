@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Homepage</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com">
+	<link rel="stylesheet" href="fontawesome/css/all.min.css">
+</head>
+<body>
+<header>
+		<div class="bovenkant">
+				<div class="items4">
+       				<a class="hoi43" href="#">Inloggen</a>
+       				<a class="hoi43" href="#">Account</a>
+       				<a class="hoi44" href="#">Sociale Media</a>
+				</div>
+		</div>
+</header>
+	<?php require_once("header.php"); ?>
+
+	<!-- START eigen code -->
+	<main>
+		<div class="banner">
+			<p>Abonneer Op Fish!</p>
+		</div>
+		<div class="balk1">
+			<img src="img/balk1.png" alt="balk" class="balk2">
+		</div>
+		<div class="font">
+			<i class="far fa-futbol"></i>
+		</div>
+	</main>
+
+	<script type="text/javascript">
+		// Schrijf hier Javascript voor de "lees meer"
+		// (of andere interactie die je maakt). 
+	</script>
+	<!-- EINDE eigen code -->
+
+	<?php require_once("footer.php"); ?>
+	
+</body>
+</html>

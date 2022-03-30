@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'League Mono';
+    src: url('LeagueMono-Regular.eot');
+    src: url('LeagueMono-Regular.eot?#iefix') format('embedded-opentype'),
+        url('LeagueMono-Regular.woff2') format('woff2'),
+        url('LeagueMono-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*{
+	margin: 0px;
+	padding: 0px;
+	font-family: sans-serif;
+}
+.logo {
+	margin-left: 35%;
+	width: 270px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.messi{
+	display: flex;
+	justify-content: center;
+	border-radius: 8px;
+}
+.gif1{
+	border-radius: 16px;
+}
+.wrapper{
+	width: 968px;
+	margin: 0 auto;
+	justify-content: space-around;
+	margin-top: 20px;
+}
+
+.muted{
+	color: grey;
+}
+
+header{
+	background-color: #ffffff;
+}
+
+nav{
+	display: flex;
+	justify-content: space-between;
+    font-size:22px;
+    color: #ffffff	;
+    font-family:Arial, Helvetica, sans-serif;
+;
+}
+nav a{
+	color: #000000;
+	font-weight: 1000
+}
+body{
+	background-color: ##ffffff;
+}
+h1{
+	margin-bottom: 20px;
+}
+footer{
+	background-color: lightgrey;
+	padding: 10px;
+	margin-top: 0px;
+}
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration:  none;
+	margin-bottom: 15px;
+}
+
+.navbar {
+  display:flex;
+  flex-flow: row wrap;
+  flex-wrap:wrap;	
+  margin: 20px;
+}
+.item-navbar{
+	text-align: center;
+	padding: 23px;
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.column-left{
+	width: 40vw;
+}
+
+.column {
+  flex: 1;
+  display:flex;
+  padding:10px;
+  justify-content: space-around;
+  align-items: center;
+  width: 20vw;
+}
+.column-right{
+	width: 40vw;
+}
+.item-navbar{
+	width: 25%;
+	float: left;
+	margin-top: 60px;
+}
+
+
+}
+.item-navbar {
+  margin-right: 4px;
+}
+
+.banner{
+background-image: url('../img/fish.jfif');
+padding-top: 10%;
+padding-bottom: 15%
+}
+.font{
+	display: flex;
+	justify-content: center;
+	font-size: 100px;
+}
+.bovenkant{
+	width: 100%;
+	height: 40px;
+	background-color: #000000;
+  margin-top: 0px;
+}
+.items4{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 80px;
+}
+a{
+	font-family: Chilanka;
+}
+.hoi43{
+	color: white;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: 8px;
+	border-right: solid 2px white;
+}
+.hoi44{
+	color: white;
+	margin-top: 8px;
+	padding-left: 20px;
+}
+h1{
+	display: flex;
+	justify-content: center;
+
+}
+p{
+	display: flex;
+	justify-content: center;
+	margin-left: 200px;
+	margin-right: 200px;
+	margin-bottom: 10px;
+}
+.balk1{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 10px;
+}
+
+
+/* EINDE eigen code */
+
+.form-group{
+	border: 1px solid lightgrey;
+	padding: 10px;
+}
+
+.form-group label{
+	display: inline-block;
+	width: 150px;
+	cursor: pointer;
+	vertical-align: top;
+}
+
+.form-group input[type=text], .form-group textarea{
+	width: 300px;
+}
+
+.form-group input[type=submit]{
+	padding: 10px;
+	cursor: pointer;
+}
