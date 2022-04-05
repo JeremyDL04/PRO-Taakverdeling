@@ -26,7 +26,7 @@
 			<img src="img/balk1.png" alt="balk" class="balk2">
 		</div>
 		<div class="messi">
-			<img src="https://media.giphy.com/media/ViZylgfPSfJFm/giphy.gif" alt="messi" div class="gif1">
+			<img src="img/Achtbaan.png" alt="messi" div class="gif1">
 		</div>
 	<script type="text/javascript">
 		// Schrijf hier Javascript voor de "lees meer"
