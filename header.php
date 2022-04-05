@@ -1,6 +1,6 @@
 <header>
 	<div class="wrapper">
-		<a href="index.php"><img src="img/curio.png" alt="logo" class="logo"></a>
+		<a href="index.php"><img src="img/Achtbaan.png" alt="logo" class="logo"></a>
 			<nav>
 			<a href="index.php">Home</a>
 			<a href="hobbies.php">Hobbies</a>
