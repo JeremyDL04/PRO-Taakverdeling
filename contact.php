@@ -9,36 +9,23 @@
 	<link rel="stylesheet" href="fontawesome/css/all.min.css">
 </head>
 <body>
-<header>
-		<div class="bovenkant">
-				<div class="items4">
-       				<a class="hoi43" href="#">Inloggen</a>
-       				<a class="hoi43" href="#">Account</a>
-       				<a class="hoi44" href="#">Sociale Media</a>
-				</div>
-</header>
-	<?php require_once("header.php"); ?>
 
-	<!-- START eigen code -->
+<?php require_once("header.php"); ?>
+
 	<main>
 		<div class="balk1">
 			<img src="img/balk1.png" alt="balk" class="balk2">
 		</div>
 		<div class="contact1">
 			<h1>Neem contact op</h1>
-			
-			<form action="backend/contactController.php" method="post">
-
-				<!-- Vertel de controller wat we gaan doen -->
-				<input type="hidden" name="action" value="send">
-				
+			<form action="backend/contactController.php" method="POST">
 				<div class="form-group">
 					<label for="senderName">Naam</label>
 					<input type="text" name="senderName" id="senderName">
 				</div>
 				<div class="form-group">
 					<label for="senderEmail">E-mailadres</label>
-					<input type="text" name="senderEmail" id="senderEmail">
+					<input type="email" name="senderEmail" id="senderEmail">
 				</div>
 				<div class="form-group">
 					<label for="message">Bericht</label>
