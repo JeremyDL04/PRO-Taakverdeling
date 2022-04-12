@@ -35,11 +35,14 @@
 }
 
 .muted{
-	color: grey;
+	color: #F8E16C;
 }
 
 header{
-	background-color: #ffffff;
+	background-color: #2274A5;
+}
+main{
+	background: #F8E16C;
 }
 
 nav{
@@ -55,13 +58,13 @@ nav a{
 	font-weight: 1000
 }
 body{
-	background-color: ##ffffff;
+	background-color: #F8E16C;
 }
 h1{
 	margin-bottom: 20px;
 }
 footer{
-	background-color: lightgrey;
+	background-color: #2274A5;
 	padding: 10px;
 	margin-top: 0px;
 }
