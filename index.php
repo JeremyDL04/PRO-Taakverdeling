@@ -7,20 +7,7 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-<header>
-	<div class="bovenkant">
-				<div class="items4">
-       				<a class="hoi43" href="#">Inloggen</a>
-       				<a class="hoi43" href="#">Account</a>
-       				<a class="hoi44" href="#">Sociale Media</a>
-				</div>
-			<nav>
-									
-
-</header>
-	<?php require_once("header.php"); ?>
-
-	<!-- START eigen code -->
+	<?php require_once 'header.php'; ?>
 	<main>
 		<div class="balk1">
 			<img src="img/balk1.png" alt="balk" class="balk2">
@@ -33,5 +20,10 @@
 
 	<?php require_once("footer.php"); ?>
 	
+		<div class="messi">
+			<img src="img/Achtbaan-logo.png" alt="Achtbaan logo" div class="gif1">
+		</div>
+	</main>
+	<?php require_once 'footer.php'; ?>
 </body>
 </html>
