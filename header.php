@@ -1,7 +1,5 @@
 <header>
 	<div class="wrapper">
-		<a href="index.php"><img src="img/achtbaan1.png" alt="logo" class="logo"></a>
-			<nav>
 		<a href="index.php"><img src="img/curio.png" alt="logo" class="logo"></a>
 		<nav>
 			<a href="index.php">Home</a>
